@@ -1,5 +1,5 @@
 <div align = "center">
-<h1><span> <img src="https://github.com/abhraneel2004/MAKAUT_3rdSem_DSA_AOT/assets/115551450/ef1fc712-8258-4065-a882-abd15e561012" style="width: 5%;"> Design and Analysis of Algorithms in C/C++</h1> </span>
+<h1><span> <img src="https://github.com/abhraneel2004/MAKAUT_3rdSem_DSA_AOT/assets/115551450/ef1fc712-8258-4065-a882-abd15e561012" style="width: 5%;"> Design and Analysis of Algorithms in C</h1> </span>
 </div>
 
 Welcome to the Design and Analysis of Algorithms repository! This repository contains the algorithms to solve different problems in C and C++. Whether you're a beginner looking to learn or an experienced developer seeking reference implementations, you've come to the right place.
