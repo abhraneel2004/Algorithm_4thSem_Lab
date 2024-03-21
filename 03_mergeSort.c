@@ -5,10 +5,14 @@ void merge(int arr[], int si, int mid, int ei){
     int i1=si,i2=mid+1,x=0;
     while(i1<=mid && i2<=ei){
         if (arr[i1]>arr[i2]){
-            merged[x++] = arr[i2++];
+            merged[x] = arr[i2];
+            x++;
+            i2++;
         }
         else{
-            merged[x++] = arr[i1++];
+            merged[x] = arr[i1];
+            x++;
+            i1++;
         }
     }
     while(i1<=mid){
@@ -25,7 +29,7 @@ void merge(int arr[], int si, int mid, int ei){
 
 void mergeSort(int arr[], int si, int ei){
     if (ei>si){ //base case of recursion
-        int mid = si + (ei-si)/2;
+        int mid = si + (ei-si)/2; // (si+ei)
         mergeSort(arr, si, mid);
         mergeSort(arr, mid+1, ei);
         merge(arr, si, mid, ei);
