@@ -17,7 +17,7 @@ void DFS(int v, int n){
 
 int readGraph(){
 	FILE *fp;
-	fp = fopen("abc.txt", "r");
+	fp = fopen("graphs/abc.txt", "r");
 	
 	if (fp==NULL){
 		printf("\nfile open failed.\n");

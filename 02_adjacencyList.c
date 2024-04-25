@@ -49,7 +49,7 @@ void displayLL(int vert)
 int main(void)
 {
     FILE *fp;
-    fp = fopen("abc.txt", "r");
+    fp = fopen("graphs/abc.txt", "r");
     if (fp == NULL)
     {
         printf("Error in Opening File\n");
