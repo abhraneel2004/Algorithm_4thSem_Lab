@@ -12,7 +12,7 @@ int w = 15;
 int p[] = {10, 5, 15, 7, 6, 18, 3};
 int wt[] = {2, 3, 5, 7, 1, 4, 1};
 
-struct Knap arr[n] = {0};
+struct Knap arr[n];
 
 void initialise()
 {
@@ -50,7 +50,7 @@ void sort()
 
 void fractKnapsack()
 {
-    double x[n] = {0, 0};
+    double x[n];
     double ans = 0;
     for (int i = 0; i < n; i++)
     {
