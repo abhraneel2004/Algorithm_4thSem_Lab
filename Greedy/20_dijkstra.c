@@ -10,7 +10,7 @@ int V;
 
 bool readGraph(){
 	FILE * fp;
-	fp = fopen("./graphs/graph_weighted.txt", "r");
+	fp = fopen(".././graphs/graph_weighted.txt", "r");
 	if(!fp){
 		printf("File Reading Failed\n");
 		return false;

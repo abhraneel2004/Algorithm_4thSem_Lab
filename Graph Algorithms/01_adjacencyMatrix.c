@@ -4,7 +4,7 @@
 
 int main(void){
     FILE *fp;
-    fp = fopen("graphs/abc.txt", "r");
+    fp = fopen(".././graphs/abc.txt", "r");
     if(fp==NULL){
         printf("Error in Opening File\n");
         exit(1);

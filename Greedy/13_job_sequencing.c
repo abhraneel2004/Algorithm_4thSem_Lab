@@ -71,11 +71,11 @@ void jobSequencing(struct Job arr[], int n) {
 int main() {
     // Example usage
     struct Job arr[] = {
-        {'a', 2, 100},
+        {'a', 4, 100},
         {'b', 1, 19},
         {'c', 2, 27},
         {'d', 1, 25},
-        {'e', 3, 15}
+        {'e', 3, 30}
     };
     int n = sizeof(arr) / sizeof(arr[0]);
 

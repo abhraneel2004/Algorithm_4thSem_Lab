@@ -8,7 +8,7 @@ int graph[V][V];
 
 int readGraph(){
 	FILE *fp;
-	fp = fopen("graphs/aw.txt", "r");
+	fp = fopen(".././graphs/aw.txt", "r");
 	
 	if (fp==NULL){
 		printf("\nfile open failed.\n");

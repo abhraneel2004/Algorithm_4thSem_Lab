@@ -18,17 +18,42 @@ bool place(int k,int i){
       return true;	
 }
 
+void printl(int n){
+	printf("\n");
+	for(int i = 0; i<4*n; i++){
+		printf("_");
+	}
+	printf("\n");
+}
+
 void  Nqueens(int k,int n){   
-	int i,j;
+	int i,j,p;
 	
 	for(i=0;i<n;i++){   
         if(place(k,i)){  
             x[k]=i;   
 			if(k==n-1){
-               for(j=0;j<n;j++){
-               		printf("%d ",x[j]+1);
+				printl(n);
+				
+				for(j = 0; j < n; j++){
+					
+					printf(" %d |",x[j]+1);
+				}
+				printl(n);
+
+               	for(j=0;j<n;j++){
+					
+					for(p=0;p<n;p++){
+						if(x[j]==p)
+							printf(" Q ");
+						else
+							printf("   ");
+						printf("|");
+					}
+					printl(n);
+               		
 			   } 
-			   printf("\n");
+			   printf("\n\n");
 			}else{
 		   		Nqueens(k+1,n);       
             }
@@ -41,5 +66,6 @@ int main(void){
 	scanf("%d",&n);
 	x=(int *)malloc(n*sizeof(int));
 	Nqueens(0,n);
+	free(x);
 	return 0;
 }

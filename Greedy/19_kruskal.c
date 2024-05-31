@@ -25,7 +25,7 @@ void printGraph(){
 
 int readGraph(){
     FILE * fp;
-    fp = fopen("aw.txt", "r");
+    fp = fopen(".././graphs/aw.txt", "r");
     if (fp==NULL){
         printf("File Opening Failed\n");
         return 0;

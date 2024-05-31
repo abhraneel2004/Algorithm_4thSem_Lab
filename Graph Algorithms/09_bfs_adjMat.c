@@ -44,7 +44,7 @@ void BFS(int v, int n){
 
 int readGraph(){
 	FILE *fp;
-	fp = fopen("graphs/abc.txt", "r");
+	fp = fopen(".././graphs/abc.txt", "r");
 	
 	if (fp==NULL){
 		printf("\nfile open failed.\n");

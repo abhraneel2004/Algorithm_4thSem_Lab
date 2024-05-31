@@ -59,7 +59,7 @@ bool bellmanFord(int G[][V],int s){
 	return true;
 }
 int main(void){
-	FILE *file=fopen("graphs/matrix.txt","r");  
+	FILE *file=fopen(".././graphs/matrix.txt","r");  
 	int i,j,s;
 	
 	if(file==NULL){

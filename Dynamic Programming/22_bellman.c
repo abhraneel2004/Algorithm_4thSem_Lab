@@ -26,7 +26,7 @@ void printGraph(){
 
 int readGraph(){
     FILE * fp;
-    fp = fopen("graphs/matrix.txt", "r");
+    fp = fopen(".././graphs/matrix.txt", "r");
     if (fp==NULL){
         printf("File Opening Failed\n");
         return 0;

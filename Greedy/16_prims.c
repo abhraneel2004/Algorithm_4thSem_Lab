@@ -60,7 +60,7 @@ void primMST() {
 
 int main(void) {
     FILE *fp;
-    fp = fopen("aw.txt", "r");
+    fp = fopen(".././graphs/aw.txt", "r");
     if(fp == NULL) {
         printf("File open failed\n");
         return -1;
