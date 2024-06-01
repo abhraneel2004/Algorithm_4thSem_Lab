@@ -24,7 +24,7 @@ void initialise()
     }
 }
 
-void display()
+void display2()
 {
     for (int i = 0; i < n; i++)
     {
@@ -73,10 +73,10 @@ void fractKnapsack()
 int main(void)
 {
     initialise();
-    display();
+    display2();
     sort();
     printf("\n");
-    display();
+    display2();
     fractKnapsack();
 
     return 0;
